@@ -1,0 +1,14 @@
+name: adr-ml
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - requests
+  - tqdm
+  - pyarrow
+  - openpyxl
+  - pip:
+      - -e .

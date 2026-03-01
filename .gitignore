@@ -1,0 +1,47 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# --- Environments ---
+.venv/
+venv/
+ENV/
+.env
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- DATA: never commit datasets by accident ---
+data/**
+
+# Allow tiny placeholder + provenance files to be versioned
+!data/**/.gitkeep
+!data/**/README_source.txt
+!data/**/README_source.md
+!data/**/SCHEMA.md
+!data/**/SCHEMA.yml
+!data/**/SCHEMA.yaml
+!data/**/SCHEMA.json
+!data/**/schema.md
+!data/**/schema.yml
+!data/**/schema.yaml
+!data/**/schema.json
+
+# --- Reports (generated catalogs are OK to commit) ---
+# (keep reports/ tracked; no ignore here)
