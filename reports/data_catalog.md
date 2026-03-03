@@ -1,6 +1,6 @@
 # Data Catalog
 
-- Generated UTC: 2026-03-01T21:52:46Z
+- Generated UTC: 2026-03-02T15:04:11Z
 - Scanned roots:
   - data/raw
   - data/interim
@@ -8,8 +8,8 @@
 
 | path                                                | dataset_root   |   size_bytes | sha256                                                           | mtime_utc            | ext                     |   row_count |   n_cols | columns                                                                                                                                                             |
 |:----------------------------------------------------|:---------------|-------------:|:-----------------------------------------------------------------|:---------------------|:------------------------|------------:|---------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| data/interim/drugcentral/drugcentral_structures.tsv | data/interim   |      1093536 | 822a49e663d19b579a83fcf2ba7822ecf42e061d25c0ce467516599826efa560 | 2026-03-01T21:52:45Z | .tsv                    |        4099 |        6 | SMILES, InChI, InChIKey, ID, INN, CAS_RN                                                                                                                            |
-| data/interim/drugcentral/drugcentral_targets.tsv    | data/interim   |      3962475 | 585d4e29faa8dab59f71fbfa32b86234ee6612337c423ab71fa531977d6dd3b8 | 2026-03-01T21:52:45Z | .tsv                    |       19149 |       20 | DRUG_NAME, STRUCT_ID, TARGET_NAME, TARGET_CLASS, ACCESSION, GENE, SWISSPROT, ACT_VALUE, ACT_UNIT, ACT_TYPE, ACT_COMMENT, ACT_SOURCE, RELATION, MOA, MOA_SOURCE, ... |
+| data/interim/drugcentral/drugcentral_structures.tsv | data/interim   |      1093536 | 822a49e663d19b579a83fcf2ba7822ecf42e061d25c0ce467516599826efa560 | 2026-03-02T15:04:09Z | .tsv                    |        4099 |        6 | SMILES, InChI, InChIKey, ID, INN, CAS_RN                                                                                                                            |
+| data/interim/drugcentral/drugcentral_targets.tsv    | data/interim   |      3962475 | 585d4e29faa8dab59f71fbfa32b86234ee6612337c423ab71fa531977d6dd3b8 | 2026-03-02T15:04:09Z | .tsv                    |       19149 |       20 | DRUG_NAME, STRUCT_ID, TARGET_NAME, TARGET_CLASS, ACCESSION, GENE, SWISSPROT, ACT_VALUE, ACT_UNIT, ACT_TYPE, ACT_COMMENT, ACT_SOURCE, RELATION, MOA, MOA_SOURCE, ... |
 | data/raw/drugcentral/drug.target.interaction.tsv    | data/raw       |      4456899 | 12fc764d277376b9fd77e45934fb4af1b3d101f40c7e7c41bab96078b6b019ae | 2021-10-29T13:32:50Z | .target.interaction.tsv |       19378 |       20 | DRUG_NAME, STRUCT_ID, TARGET_NAME, TARGET_CLASS, ACCESSION, GENE, SWISSPROT, ACT_VALUE, ACT_UNIT, ACT_TYPE, ACT_COMMENT, ACT_SOURCE, RELATION, MOA, MOA_SOURCE, ... |
 | data/raw/drugcentral/structures.smiles.tsv          | data/raw       |      1089436 | 5b81423a2ec1e2766e9666ec4a172d5a5b47045ea2cc032d1ba06085956bc1fc | 2026-03-01T18:16:13Z | .smiles.tsv             |        4099 |        6 | SMILES, InChI, InChIKey, ID, INN, CAS_RN                                                                                                                            |
 | data/raw/sider/drug_names.tsv                       | data/raw       |        34759 | 6427a3e3202c71a81dff97092957aacf0700b9c01f34b07e452a1ec47c92b007 | 2026-03-01T19:12:51Z | .tsv                    |        1429 |        2 | CID100000085, carnitine                                                                                                                                             |
