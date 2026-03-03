@@ -66,7 +66,6 @@ Place data here (folders may already exist):
   - `data/interim/drugcentral/drugcentral_targets.tsv`
   - `data/interim/drugcentral/drugcentral_structures.tsv`
 
-> Note: This project intentionally does **not** use DrugBank (license not available). No scraping or login automation is performed.
 
 ---
 
