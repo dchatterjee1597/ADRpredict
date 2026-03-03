@@ -26,6 +26,7 @@ ENV/
 Thumbs.db
 .vscode/
 .idea/
+*.code-workspace
 
 # --- DATA: never commit datasets by accident ---
 data/**
